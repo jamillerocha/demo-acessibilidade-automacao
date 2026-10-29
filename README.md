@@ -2,7 +2,7 @@
 
 Artefato técnico do Seminário Técnico (Projeto Final) da disciplina **Qualidade em Aplicações Web e Mobile** — Pós-graduação em Engenharia de Software com Ênfase em Teste de Software, PUC Minas, 2026.
 
-**Grupo:** [Nome 1], [Nome 2]
+**Grupo:** Jamille Rocha, Angélica Alves e Andressa Santana
 
 ## Objetivo
 
