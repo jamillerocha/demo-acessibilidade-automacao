@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head><meta charset="utf-8"><title>Loja Demo (corrigida)</title>
+<style>
+  .aviso { color: #3d4a57; }                       /* B1 corrigido: contraste >= 4.5:1 */
+  .botao { background:#0b6e4f; color:#fff; padding:8px 16px; border:0; font:inherit; cursor:pointer; }
+  label { display:block; margin-top:8px; }
+</style></head>
+<body>
+<main>
+  <h1>Finalizar compra</h1>
+  <p class="aviso">Frete grátis acima de R$ 100</p>
+  <!-- B2 corrigido: texto alternativo descreve o conteúdo (exemplo fictício) -->
+  <img src="grafico.png" alt="Gráfico: prazo de entrega de 3 a 5 dias úteis para o seu CEP">
+  <!-- B3 corrigido: rótulos visíveis e associados -->
+  <label for="nome">Nome</label>    <input id="nome" type="text" autocomplete="name">
+  <label for="email">E-mail</label> <input id="email" type="email" autocomplete="email">
+  <label for="cep">CEP</label>      <input id="cep" type="text" autocomplete="postal-code">
+  <!-- B4 corrigido: sem tabindex; ordem do DOM = ordem visual -->
+  <!-- B5 corrigido: elemento nativo <button>, focável e acionável por teclado -->
+  <p><button class="botao" type="button" onclick="alert('Pedido enviado!')">Confirmar pedido</button></p>
+</main>
+</body>
+</html>

@@ -1,0 +1,14 @@
+{
+  "name": "demo-acessibilidade-automacao",
+  "version": "1.0.0",
+  "description": "Demonstração: o que a automação (axe-core) detecta e o que só o teste manual revela.",
+  "private": true,
+  "scripts": {
+    "test": "playwright test",
+    "relatorio": "playwright show-report"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "4.10.2",
+    "@playwright/test": "1.56.0"
+  }
+}

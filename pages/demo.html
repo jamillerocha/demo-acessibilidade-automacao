@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head><meta charset="utf-8"><title>Loja Demo</title>
+<style>
+  .claro { color: #bbb; }               /* B1: contraste baixo */
+  .botao { background:#0a5; color:#fff; padding:8px 16px;
+           display:inline-block; cursor:pointer; }
+</style></head>
+<body>
+  <h1>Finalizar compra</h1>
+  <p class="claro">Frete grátis acima de R$ 100</p>
+  <img src="grafico.png" alt="imagem1">      <!-- B2: alt sem significado -->
+  <input type="text" placeholder="E-mail">   <!-- B3: campo sem rótulo -->
+  <input type="text" placeholder="CEP" tabindex="3">
+  <input type="text" placeholder="Nome" tabindex="1"> <!-- B4: ordem de foco ilógica -->
+  <!-- B5: "botão" que não recebe foco nem responde ao teclado -->
+  <div class="botao" onclick="alert('Pedido enviado!')">Confirmar pedido</div>
+</body>
+</html>

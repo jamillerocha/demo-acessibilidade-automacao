@@ -1,0 +1,15 @@
+
+Running 10 tests using 1 worker
+
+  ✓   1 [chromium] › tests/1-scanner.spec.js:18:3 › Página com barreiras (pages/demo.html) › B1 contraste baixo: o axe DETECTA (678ms)
+  ✓   2 [chromium] › tests/1-scanner.spec.js:22:3 › Página com barreiras (pages/demo.html) › B2 alt="imagem1" (sem significado): o axe NÃO detecta (539ms)
+  ✓   3 [chromium] › tests/1-scanner.spec.js:27:3 › Página com barreiras (pages/demo.html) › B3 campo só com placeholder: o axe NÃO detecta (aceita o placeholder como nome) (484ms)
+  ✓   4 [chromium] › tests/1-scanner.spec.js:32:3 › Página com barreiras (pages/demo.html) › B4 tabindex > 0: o axe sinaliza só como boa prática, não como falha WCAG (487ms)
+  ✓   5 [chromium] › tests/1-scanner.spec.js:38:3 › Página com barreiras (pages/demo.html) › B5 <div> usada como botão: o axe NÃO aponta problema de teclado (498ms)
+  ✓   6 [chromium] › tests/1-scanner.spec.js:44:1 › Versão corrigida (pages/demo-corrigida.html): nenhuma violação (480ms)
+  ✓   7 [chromium] › tests/2-teclado.spec.js:6:3 › Página com barreiras (pages/demo.html) › B4: a ordem do Tab difere da ordem visual (Nome antes de E-mail) (89ms)
+  ✓   8 [chromium] › tests/2-teclado.spec.js:13:3 › Página com barreiras (pages/demo.html) › B5: "Confirmar pedido" nunca recebe foco e Enter não envia o pedido (442ms)
+  ✓   9 [chromium] › tests/2-teclado.spec.js:25:3 › Página com barreiras (pages/demo.html) › B2: o leitor de tela anunciaria a imagem como "imagem1" (100ms)
+  ✓  10 [chromium] › tests/2-teclado.spec.js:31:1 › Versão corrigida: o teclado alcança o botão e Enter envia o pedido (403ms)
+
+  10 passed (5.6s)

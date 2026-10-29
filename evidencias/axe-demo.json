@@ -1,0 +1,46 @@
+{
+  "axeCore": "4.10.3",
+  "data": "2026-10-29T01:05:10.945Z",
+  "violacoes": [
+    {
+      "regra": "color-contrast",
+      "impacto": "serious",
+      "tipo": "falha WCAG",
+      "elementos": [
+        "p",
+        "div"
+      ]
+    },
+    {
+      "regra": "landmark-one-main",
+      "impacto": "moderate",
+      "tipo": "boa prática",
+      "elementos": [
+        "html"
+      ]
+    },
+    {
+      "regra": "region",
+      "impacto": "moderate",
+      "tipo": "boa prática",
+      "elementos": [
+        "h1",
+        "p",
+        "img",
+        "input[placeholder=\"E-mail\"]",
+        "input[placeholder=\"CEP\"]",
+        "input[placeholder=\"Nome\"]",
+        "div"
+      ]
+    },
+    {
+      "regra": "tabindex",
+      "impacto": "serious",
+      "tipo": "boa prática",
+      "elementos": [
+        "input[placeholder=\"CEP\"]",
+        "input[placeholder=\"Nome\"]"
+      ]
+    }
+  ]
+}
