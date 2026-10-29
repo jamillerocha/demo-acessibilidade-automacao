@@ -80,4 +80,4 @@ Playwright 1.56.0 com Chromium headless, `@axe-core/playwright` 4.10.2 (motor ax
 
 ## Uso de IA
 
-O código, as páginas de teste e este README foram elaborados com apoio do Claude (Anthropic), que também executou os testes e registrou as evidências. O código, as páginas de teste e este README foram elaborados com apoio do Claude (Anthropic), que também executou os testes e registrou as evidências. As integrantes revisaram o conteúdo, conferiram os resultados com as evidências registradas e organizaram a publicação do repositório.
+O código, as páginas de teste e este README foram elaborados com apoio do Claude (Anthropic), que também executou os testes e registrou as evidências. As integrantes revisaram o conteúdo, conferiram os resultados com as evidências registradas e organizaram a publicação do repositório.
